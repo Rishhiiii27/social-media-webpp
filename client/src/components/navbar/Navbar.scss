@@ -1,0 +1,50 @@
+.Navbar{
+
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid var(--border-color);
+    position:fixed;
+    top:0 ;
+    background-color: black;
+
+   
+    .banner{
+        color:white
+    }
+    .banner:hover{
+        cursor: pointer;
+        color: rgb(215, 202, 202);
+    }
+    .banner:active{
+        // background-color: rgb(244, 238, 238);
+        border-radius: 10px;
+        color: black;
+    }
+
+    .container{
+        height: 100%;
+      
+        display: flex;
+        align-items: center;
+        justify-content: space-between;   
+    }
+
+    .right-side{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+    .logout{
+        font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        color: white; 
+    }
+    .logout:hover{
+        font-weight: bold;
+    }
+}
+.Navbar:hover{
+    background-color: rgb(62, 57, 57);
+}
